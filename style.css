@@ -657,6 +657,10 @@ video {
   font-weight: 700;
 }
 
+.font-extralight {
+  font-weight: 200;
+}
+
 .text-primary {
   --tw-text-opacity: 1;
   color: hsl(234 12% 34% / var(--tw-text-opacity));
@@ -727,6 +731,22 @@ video {
 
   .sm\:max-w-none {
     max-width: none;
+  }
+
+  .sm\:max-w-xs {
+    max-width: 20rem;
+  }
+
+  .sm\:max-w-sm {
+    max-width: 24rem;
+  }
+
+  .sm\:max-w-md {
+    max-width: 28rem;
+  }
+
+  .sm\:max-w-lg {
+    max-width: 32rem;
   }
 
   .sm\:grid-cols-3 {
