@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,26 +12,27 @@
     <link href="./style.css" rel="stylesheet" />
     <title>Four Card</title>
   </head>
-  <body class="items-center bg-rear justify-center flex flex-col font-poppins">
+  <body class="flex flex-col items-center justify-center bg-rear font-poppins">
     <div
-      class="max-w-sm p-4 pt-10 text-center sm:max-w-none sm:h-screen md:max-w-6xl"
+      class="max-w-sm p-4 pt-10 text-center sm:h-screen sm:max-w-none md:max-w-6xl"
     >
-      <div landmark="header" class="p-4">
-        <h1 class="text-2xl text-secondary">Reliable, efficient delivery</h1>
+      <header class="flex flex-col items-center p-4">
+        <h1 class="text-2xl font-extralight text-secondary">
+          Reliable, efficient delivery
+        </h1>
         <h2 class="text-2xl font-bold text-primary">Powerd by Technology</h2>
-        <p class="pt-4 text-secondary text-justify sm:text-center">
+        <p class="pt-4 text-justify text-secondary sm:max-w-lg sm:text-center">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that you project is successful
         </p>
-      </div>
-      <div
-        class="mt-12 grid grid-cols-1 text-left gap-5 p-4 sm:grid-rows-4 sm:grid-cols-3 sm:w-auto"
+      </header>
+      <main
+        class="mt-12 grid grid-cols-1 gap-5 p-4 text-left sm:w-auto sm:grid-cols-3 sm:grid-rows-4"
       >
         <div
-          landmark="supervisor box"
-          class="shadow-md rounded-md p-4 border-t-4 border-boxcyan sm:row-start-2 sm:row-end-4 hover:scale-105 duration-200"
+          class="rounded-md border-t-4 border-boxcyan p-4 shadow-md duration-200 hover:scale-105 sm:row-start-2 sm:row-end-4"
         >
-          <h3 class="font-bold text-lg text-primary">Supervisor</h3>
+          <h3 class="text-lg font-bold text-primary">Supervisor</h3>
           <p class="text-secondary">
             Monitors activity to identify project roadblocks
           </p>
@@ -41,10 +42,9 @@
         </div>
 
         <div
-          landmark="teambuilder box"
-          class="shadow-md rounded-md p-4 border-t-4 border-boxred sm:row-start-1 sm:row-end-3 hover:scale-105 duration-200"
+          class="rounded-md border-t-4 border-boxred p-4 shadow-md duration-200 hover:scale-105 sm:row-start-1 sm:row-end-3"
         >
-          <h3 class="font-bold text-lg text-primary">Team Builder</h3>
+          <h3 class="text-lg font-bold text-primary">Team Builder</h3>
           <p class="text-secondary">
             Scans our talent network to creat the optimal team for your project
           </p>
@@ -54,10 +54,9 @@
         </div>
 
         <div
-          landmark="karma box"
-          class="shadow-md rounded-md p-4 border-t-4 border-boxorange sm:row-start-3 sm:row-end-5 hover:scale-105 duration-200"
+          class="rounded-md border-t-4 border-boxorange p-4 shadow-md duration-200 hover:scale-105 sm:row-start-3 sm:row-end-5"
         >
-          <h3 class="font-bold text-lg text-primary">Karma</h3>
+          <h3 class="text-lg font-bold text-primary">Karma</h3>
           <p class="text-secondary">
             Regularly evaluates our talent to ensure quality
           </p>
@@ -67,10 +66,9 @@
         </div>
 
         <div
-          landmark="calculator box"
-          class="shadow-md rounded-md p-4 border-t-4 border-boxblue sm:row-start-2 sm:row-end-4 hover:scale-105 duration-200"
+          class="rounded-md border-t-4 border-boxblue p-4 shadow-md duration-200 hover:scale-105 sm:row-start-2 sm:row-end-4"
         >
-          <h3 class="font-bold text-lg text-primary">Calculator</h3>
+          <h3 class="text-lg font-bold text-primary">Calculator</h3>
           <p class="text-secondary">
             Use data from past projects to provide better delivery estimates
           </p>
@@ -78,11 +76,11 @@
             <img alt="monitor" src="./images/icon-calculator.svg" />
           </div>
         </div>
-      </div>
-      <div landmark="footer" class="pt-5 md:p-20">
+      </main>
+      <footer class="pt-5 md:p-20">
         Challenge by
         <a
-          class="underline text-secondary"
+          class="text-secondary underline"
           rel="noopener"
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
@@ -94,7 +92,7 @@
           href="https://github.com/sirpath"
           >SirPath</a
         >.
-      </div>
+      </footer>
     </div>
   </body>
 </html>
